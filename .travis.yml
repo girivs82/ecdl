@@ -3,7 +3,7 @@ python:
   - "3.10-dev"
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install tox-travis
 # command to run tests
 script:
-  - pytest
+  - tox
